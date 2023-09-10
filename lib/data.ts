@@ -1,6 +1,5 @@
 import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
-import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
 import dashboardPageImg from '@/public/pendc_dashboard.png';
 import movieWatchlistImg from '@/public/movie-watchlist.png';
@@ -37,6 +36,7 @@ export const experiencesData = [
   {
     title: 'Design & Project Engineer',
     location: 'Bursa, Türkiye',
+    companyName: 'Fabricon',
     description:
       'Utilized AutoCAD to design architectural projects, ensuring they met all relevant regulations and standards. Managed projects from start to finish, including overseeing the design, construction, and commissioning stages.',
     icon: React.createElement(CgWorkAlt),
@@ -45,6 +45,7 @@ export const experiencesData = [
   {
     title: '(BSc) Energy Systems Engineering',
     location: 'Yalova, Türkiye',
+    companyName: 'Yalova University',
     description: ' GPA : 3,09/4 (Honours Degree)',
     icon: React.createElement(LuGraduationCap),
     date: '2021',
@@ -52,6 +53,7 @@ export const experiencesData = [
   {
     title: 'Mechanical Engineering',
     location: 'Opole, Poland',
+    companyName: 'Opole University of Technology',
     description: 'Erasmus+ Student Exchange Program',
     icon: React.createElement(LuGraduationCap),
     date: '2018-19',
