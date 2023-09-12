@@ -73,6 +73,7 @@ export const projectsData = [
       'Bootstrap',
     ],
     imageUrl: dashboardPageImg,
+    projectUrl: "https://pendc-task-six.vercel.app/",
   },
   {
     title: 'Color Scheme Generator',
@@ -80,6 +81,7 @@ export const projectsData = [
       'This page allows users to create color schemes by selecting a starting color, and generates complementary, analogous, triadic, and other schemes.',
     tags: ['API', 'JavaScript', 'HTML', 'CSS'],
     imageUrl: colorSchemeGeneratorImg,
+    projectUrl: "https://aysenur-aydin.github.io/Color-Scheme-Generator/",
   },
   {
     title: 'Movie Watchlist',
@@ -87,6 +89,7 @@ export const projectsData = [
       'I developed a web page that enables users to search for movies and TV series by name and add them to a watchlist. This project is a part of the Scrimba Front-End Developer course.',
     tags: ['API', 'JavaScript', 'HTML', 'CSS'],
     imageUrl: movieWatchlistImg,
+    projectUrl: "https://aysenur-aydin.github.io/Movie-Watchlist/",
   },
 ] as const;
 
