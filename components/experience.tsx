@@ -44,9 +44,13 @@ export default function Experience() {
                 fontSize: '1.5rem',
               }}
             >
-              <h2 className="dark:text-gray-50/[0.9] font-semibold capitalize">{item.title}</h2>
-              <div className='flex justify-between'>
-                <p className="font-semibold capitalize !mt-0">{item.companyName}</p>
+              <h2 className="dark:text-gray-50/[0.9] font-semibold capitalize">
+                {item.title}
+              </h2>
+              <div className="flex justify-between">
+                <p className="font-semibold capitalize !mt-0">
+                  {item.companyName}
+                </p>
                 <p className="font-normal !mt-0">{item.location}</p>
               </div>
               <p className="!mt-2 !font-normal text-gray-700 dark:text-white/75">

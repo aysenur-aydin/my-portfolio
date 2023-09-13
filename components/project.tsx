@@ -38,7 +38,7 @@ export default function Project({
           <p className="mt-2 leading-relaxed text-gray-700 dark:text-white/70">
             {description}
           </p>
-          <ul className="flex flex-wrap mt-4 gap-2">
+          <ul className="flex flex-wrap gap-2 mt-4">
             {tags.map((tag, index) => (
               <li
                 className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
@@ -54,7 +54,7 @@ export default function Project({
             className=" mx-1 flex justify-center bg-white text-gray-700 px-3 py-1.5 mt-4 items-center rounded-full focus:scale-[1.15] group-hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:group-hover:bg-black/[0.7]"
           >
             View Website
-            <GoProjectSymlink className="ml-2 text-2xl group-hover:translate-x-1 transition" />
+            <GoProjectSymlink className="ml-2 text-2xl transition group-hover:translate-x-1" />
           </a>
         </div>
 

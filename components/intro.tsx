@@ -69,7 +69,7 @@ export default function Intro() {
       </motion.h1>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
@@ -78,23 +78,23 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group flex items-center gap-2 py-3 text-white transition bg-gray-900 rounded-full outline-none px-7 focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105"
           onClick={() => {
             setActiveSection('Contact');
             setTimeOfLastClick(Date.now());
           }}
         >
           Contact me here
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+          <BsArrowRight className="transition opacity-70 group-hover:translate-x-1" />
         </Link>
 
         <a
           href="/AYSENUR_AYDIN_CV.pdf"
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+          className="group flex items-center gap-2 py-3 transition bg-white rounded-full outline-none cursor-pointer px-7 focus:scale-110 hover:scale-110 active:scale-105 borderBlack dark:bg-white/10"
           download
         >
           Download CV{' '}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+          <HiDownload className="transition opacity-60 group-hover:translate-y-1" />
         </a>
 
         <a
