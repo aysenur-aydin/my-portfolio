@@ -51,10 +51,10 @@ export default function Project({
           <a
             href={projectUrl}
             target="_blank"
-            className=" mx-1 flex justify-center bg-white text-gray-700 px-3 py-1.5 mt-4 items-center rounded-full focus:scale-[1.15] group-hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:group-hover:bg-black/[0.7]"
+            className=" mx-1 flex justify-center bg-white text-gray-700 px-3 py-1.5 mt-4 items-center rounded-full focus:scale-[1.15] group-hover:scale-110 hover:text-gray-950 active:scale-105 transition cursor-pointer group-even:flex-row-reverse borderBlack dark:bg-white/10 dark:text-white/60 dark:group-hover:bg-black/[0.7]"
           >
             View Website
-            <GoProjectSymlink className="ml-2 text-2xl transition group-hover:translate-x-1" />
+            <GoProjectSymlink className="group-even:mr-2 group-even:group-hover:-translate-x-1 ml-2 text-2xl transition group-hover:translate-x-1 group-even:transform group-even:scale-x-[-1]" />
           </a>
         </div>
 
