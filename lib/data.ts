@@ -129,5 +129,4 @@ export const skillsData = [
   'UI/UX',
   'Figma',
   'Trello',
-  '.NET Core MVC',
 ] as const;
