@@ -1,3 +1,6 @@
+# About Project
+This is my personal portfolio website, inspired by the [ByteGrad/portfolio-website](https://github.com/ByteGrad/portfolio-website) project. While the core structure remains similar to the original project, I've made a few small customizations and continue to upgrade it.
+
 # Screenshot
 ![my_portfolio](/public/my-portfolio.png)
 
@@ -26,3 +29,5 @@
 
 * Light & Dark mode
 * Responsive website
+--------------
+<i>This project was inspired by the [ByteGrad/portfolio-website](https://github.com/ByteGrad/portfolio-website) repository. If you're interested in learning more about the original project, you can visit the repository. </i>
