@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import React from 'react';
-import SectionHeading from './section-heading';
-import { motion } from 'framer-motion';
-import { useSectionInView } from '@/lib/hooks';
+import React from "react";
+import SectionHeading from "./section-heading";
+import { motion } from "framer-motion";
+import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView('About');
+  const { ref } = useSectionInView("About");
 
   return (
     <motion.section
@@ -19,26 +19,23 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{' '}
+        After graduating with a degree in{" "}
         <span className="font-medium">Energy Systems Engineering</span>, I
         decided to pursue my passion for programming. I enrolled in coding
-        courses and learned{' '}
-        <span className="font-medium">front-end development</span>.{' '}
+        courses and learned{" "}
+        <span className="font-medium">front-end development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is <span className="font-medium">React and JavaScript</span>. I am also
         familiar with TypeScript. I am always looking to learn new technologies.
-        I am currently looking for a{' '}
-        <span className="font-medium">full-time position</span> as a front-end
-        developer.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and reading books. I also enjoy{' '}
+        video games, watching movies & films, and reading books. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am
-        interested in learning about{' '}
+        interested in learning about{" "}
         <span className="font-medium">psychology</span>.
       </p>
     </motion.section>

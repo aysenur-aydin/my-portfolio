@@ -1,18 +1,18 @@
-'use client';
+"use client";
 
-import React, { useContext } from 'react';
-import SectionHeading from './section-heading';
+import React, { useContext } from "react";
+import SectionHeading from "./section-heading";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
-} from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
-import { experiencesData } from '@/lib/data';
-import { useSectionInView } from '@/lib/hooks';
-import { useTheme } from '@/context/theme-context';
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import { experiencesData } from "@/lib/data";
+import { useSectionInView } from "@/lib/hooks";
+import { useTheme } from "@/context/theme-context";
 
 export default function Experience() {
-  const { ref } = useSectionInView('Experience');
+  const { ref } = useSectionInView("Experience");
   const { theme } = useTheme();
 
   return (
@@ -24,24 +24,24 @@ export default function Experience() {
             <VerticalTimelineElement
               contentStyle={{
                 background:
-                  theme === 'light' ? '#f3f4f6' : 'rgba(255,255,255,0.05)',
-                boxShadow: 'none',
-                border: '1px solid rgba(0,0,0,0.05)',
-                textAlign: 'left',
-                padding: '1.3rem 2rem',
+                  theme === "light" ? "#f3f4f6" : "rgba(255,255,255,0.05)",
+                boxShadow: "none",
+                border: "1px solid rgba(0,0,0,0.05)",
+                textAlign: "left",
+                padding: "1.3rem 2rem",
               }}
               contentArrowStyle={{
                 borderRight:
-                  theme === 'light'
-                    ? '0.4rem solid #9ca3af'
-                    : '0.4rem solid rgba(255,255,255,0.5)',
+                  theme === "light"
+                    ? "0.4rem solid #9ca3af"
+                    : "0.4rem solid rgba(255,255,255,0.5)",
               }}
               date={item.date}
               icon={item.icon}
               iconStyle={{
                 background:
-                  theme === 'light' ? 'white' : 'rgba(255,255,255,0.15)',
-                fontSize: '1.5rem',
+                  theme === "light" ? "white" : "rgba(255,255,255,0.15)",
+                fontSize: "1.5rem",
               }}
             >
               <h2 className="dark:text-gray-50/[0.9] font-semibold capitalize">
@@ -53,6 +53,11 @@ export default function Experience() {
                 </p>
                 <p className="font-normal !mt-0">{item.location}</p>
               </div>
+              {item.detail && (
+                <p className="!mt-1 !font-semibold !text-sm text-gray-700 dark:text-white/75">
+                  {item.detail}
+                </p>
+              )}
               <p className="!mt-2 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
               </p>
