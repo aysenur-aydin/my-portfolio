@@ -37,7 +37,7 @@ export const experiencesData = [
   {
     title: 'Front-End Developer',
     location: 'Bursa, Türkiye',
-    companyName: 'END Solution',
+    companyName: 'END Çözüm',
     companyLink: 'https://endcozum.com/en/home-en/',
     description: `Developed dynamic, interactive, and user-friendly web interfaces for industrial automation and energy management systems using JavaScript, jQuery, and modern frameworks. Designed SCADA, HMI screens, and MES dashboards for manufacturing environments, focusing on performance, reliability, and real-time monitoring.`,
     portfolioLink: 'https://end-portfolio.framer.website/',

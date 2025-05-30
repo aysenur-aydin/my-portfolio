@@ -5,7 +5,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs';
-import { HiDownload } from 'react-icons/hi';
+import { GoLinkExternal } from 'react-icons/go';
 import { FaGithubSquare } from 'react-icons/fa';
 import { useSectionInView } from '@/lib/hooks';
 import { useActiveSectionContext } from '@/context/active-section-context';
@@ -89,12 +89,12 @@ export default function Intro() {
         </Link>
 
         <a
-          href="/AYSENUR_AYDIN_CV.pdf"
+          href="https://flowcv.com/resume/n0d7a5ot34"
           className="group flex items-center gap-2 py-3 transition bg-white rounded-full outline-none cursor-pointer px-7 focus:scale-110 hover:scale-110 active:scale-105 borderBlack dark:bg-white/10"
           download
         >
-          Download CV{' '}
-          <HiDownload className="transition opacity-60 group-hover:translate-y-1" />
+          View my CV{' '}
+          <GoLinkExternal className="transition opacity-60 group-hover:translate-x-1 group-hover:-translate-y-1" />
         </a>
 
         <a
