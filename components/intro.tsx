@@ -15,11 +15,7 @@ export default function Intro() {
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
   return (
-    <section
-      ref={ref}
-      id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
-    >
+    <section ref={ref} id="home" className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -111,6 +107,16 @@ export default function Intro() {
           className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
         >
           <FaGithubSquare />
+        </a>
+        <a
+          href="https://linktr.ee/aysenuraydin7"
+          target="_blank"
+          className="bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width={18} height={18} fill={'currentColor'} viewBox="0 0 24 24">
+            <path d="M18.77 5.42 16.83 3.45 13.47 6.87 13.47 2 10.57 2 10.57 6.87 7.21 3.45 5.27 5.42 8.81 8.77 3.86 8.77 3.82 8.77 3.82 11.51 8.79 11.51 5.25 14.92 7.19 16.87 12 12.04 16.81 16.85 18.75 14.92 15.21 11.51 20.18 11.51 20.18 8.75 15.23 8.75 18.77 5.42z"></path>
+            <path d="M10.59 15.46H13.49V22H10.59z"></path>
+          </svg>
         </a>
       </motion.div>
     </section>
