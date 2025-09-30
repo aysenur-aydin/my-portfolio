@@ -1,13 +1,11 @@
 [build]
 command = "npm run build"
-publish = ".next"
+publish = "out"
 
 [build.environment]
 NODE_VERSION = "18"
 
-[[headers]]
-for = "/api/*"
-[headers.values]
-Access-Control-Allow-Origin = "*"
-Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
-Access-Control-Allow-Headers = "Content-Type, Authorization"
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
