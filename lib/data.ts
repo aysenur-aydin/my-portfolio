@@ -27,10 +27,6 @@ export const links = [
     name: 'Experience',
     hash: '#experience',
   },
-  {
-    name: 'Contact',
-    hash: '#contact',
-  },
 ] as const;
 
 export const experiencesData = [
@@ -91,9 +87,7 @@ export const projectsData = [
       'React',
       'TailwindCss',
       'react-dom',
-      'react-hot-toast',
       'react-icons',
-      'react-email & resend',
       'clsx',
       'framer-motion',
       'context API',
