@@ -4,6 +4,8 @@ publish = "out"
 
 [build.environment]
 NODE_VERSION = "18"
+NETLIFY_NEXT_PLUGIN_SKIP = "true"
+NEXT_PRIVATE_TARGET = "export"
 
 [[redirects]]
 from = "/*"
