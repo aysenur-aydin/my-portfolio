@@ -93,21 +93,15 @@ export const projectsData = [
       'context API',
     ],
     imageUrl: myPortfolio,
-    projectUrl: 'https://aysenuraydin-portfolio.vercel.app/',
+    projectUrl: 'https://aysenuraydin.netlify.app/',
   },
   {
     title: 'PenDC Task',
     description:
       'I completed a task for PenDC that required me to code a login and dashboard page adhering to Figma design.',
-    tags: [
-      'React',
-      'react-dom',
-      'react-router-dom',
-      'react-icons',
-      'Bootstrap',
-    ],
+    tags: ['React', 'react-dom', 'react-router-dom', 'react-icons', 'Bootstrap'],
     imageUrl: dashboardPageImg,
-    projectUrl: 'https://pendc-task-six.vercel.app/',
+    projectUrl: 'https://github.com/aysenur-aydin/pendc-task',
   },
   {
     title: 'Movie Watchlist',
