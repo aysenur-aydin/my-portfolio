@@ -12,6 +12,9 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Ayşenur | Personal Portfolio',
   description: 'Ayşenur is a front-end developer',
+  verification: {
+    google: 'sGGEkhz9iiZwiF8D8cytqax0Qnio-z4skN5nTiwCM5Y',
+  },
 };
 
 export default function RootLayout({
