@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: 'Ayşenur | Personal Portfolio',
   description: 'Ayşenur is a front-end developer',
   verification: {
-    google: 'sGGEkhz9iiZwiF8D8cytqax0Qnio-z4skN5nTiwCM5Y',
+    google: 'E-Pi27P-OhBFlmo_N2piQ-aXOmsp4BeAmXyudqW5oxw',
   },
 };
 
